@@ -1,0 +1,278 @@
+:root {
+
+    --imgTeste: url('../imgs/imgs-projects/pexels-bri-schneiter-28802-346529.jpg');
+
+
+
+
+}
+
+
+h2.title_content {
+    font-size: 1.9em;
+    font-family: 'Kanit';
+    font-weight: 600;
+    text-align: center;
+    color: var(--richBlack);
+    margin: 10px 0px 20px 0px;
+}
+
+p.subtitle_content {
+    font-size: 0.9em;
+    font-family: 'Kanit';
+    font-weight: 400;
+    text-align: center;
+    color: var(--chocolateCosmos);
+    margin: 0px 0px 10px 0px;
+}
+
+
+main.component {
+  
+    display: flex;
+    flex-direction: column;
+}
+
+
+section.content_component {
+
+    margin: 0;
+    font-size: 0.9em;
+    font-family: 'Nunito';
+}
+
+
+
+
+
+/*---------- Projects Component ---------------------------*/
+
+section#conteiner_projects {
+    width: 100vw;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.box_projects {
+    width: 70%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--chocolateCosmos);
+    padding: 0px 0px 10px 0px;
+    overflow: hidden;
+  
+    /* background-image: linear-gradient(to bottom, var(--cor3), var(--cor4)); */
+ 
+ 
+ 
+}
+
+div.box_projects > div.box_img_project {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+ 
+    
+}
+
+
+div.box_img_project > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+
+
+div.box_name_project {
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    /* color: white; */
+    color: var(--chocolateCosmos);
+    font-size: 1.2em;
+    font-family: 'Kanit';
+    font-weight: 400;
+    text-align: center;
+}
+
+
+div.box_techIcon_project {
+    font-size: 2.4em;
+    /* background-color: pink; */
+    /* color: white; */
+    color: var(--chocolateCosmos2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+div.box_about_project {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    color: white;
+
+}
+
+
+div.box_about_project > h3.title_project {
+    font-size: 1.6em;
+    font-family: 'Kanit';
+    color: var(--richBlack);
+}
+
+
+div.box_about_project > p.description_project {
+    font-size: 0.9em;
+    font-family: 'Nunito';
+    color: var(--richBlack);
+}
+
+div.box_visit_project {
+    /* background-color: green; */
+    width: 90%;
+    height: auto;
+    font-size: 2.1em;
+    /* color: white; */
+    color: var(--chocolateCosmos2);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 0;
+    margin: auto;
+}
+
+
+
+
+/*------------ Skills Component ---------------------*/
+
+div#conteiner_icons_skills {
+    width: 95vw;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+
+div.box_tech {
+    width: 40%;
+    /* background-color: yellow; */
+    background-color: #FFFF;
+    display: flex;
+    
+ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Nunito';
+    padding: 5px;
+    border-radius: 5px;
+
+    border: 2px solid var(--chocolateCosmos);
+    color: var(--chocolateCosmos);
+}
+
+div.box_tech > svg {
+    font-size: 2.1em;
+     margin-right: 10px; 
+}
+
+
+div.box_tech:hover {
+    cursor: pointer;
+}
+
+div#box_html5:hover {
+    background-color: var(--chocolateCosmos);
+    color: orange;
+    transition: 0.2s;
+
+}
+
+div#box_css3:hover {
+    background-color: var(--chocolateCosmos);
+    color: rgb(0, 166, 255);
+    transition: 0.2s;
+}
+
+div#box_js:hover {
+    background-color: var(--chocolateCosmos);
+    color: yellow;
+    transition: 0.2s;
+}
+
+div#box_react:hover {
+    background-color: var(--chocolateCosmos);
+    color: aqua;
+    transition: 0.2s;
+}
+
+div#box_git:hover {
+    background-color: var(--chocolateCosmos);
+    color: orange;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    section.content_component {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    div.box_text {
+        border: 2px solid black;
+
+    }
+
+
+    
+
+
+    
+}

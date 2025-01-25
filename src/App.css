@@ -1,12 +1,18 @@
+ 
+ 
  html, body {
-  background-color: red;
+  /* background-color: red; */
   margin: 0;
+
+  
+
  
 }
 
 
 h1 {
-  margin: 0;
+
+  
 
 }
 
@@ -14,17 +20,46 @@ h1 {
 
 div.conteiner {
   width: 100%;
-  background-color: green;
+  /* background-color: green; */
 }
 
 header {
-  background-color: blue;
+   /* background-color: #B89E97; */
+   background-color: var(--richBlack);
   width: 100vw;
-  height: 20vh;
+  height: 15vh;
   margin: 0;
   display: flex;
+
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  color: white;
+
+}
+
+div#title_header {
+ 
+  /* background-color: yellow; */
+  margin: 0;
+  display: block;
+  margin: 15px;
+}
+
+div#header_icons {
+
+  /* background-color: purple; */
+  margin: 15px;
+  font-size: 2.1em;
+  display: flex;
+}
+
+div#title_header > h1 {
+  width: 100%;
+  margin: 0;
+  font-family: 'Kanit';
+  text-align: center;
+  font-size: 1.2em;
+
 }
 
 main {
@@ -35,12 +70,32 @@ main {
 nav {
   width: 100vw;
   height: auto;
-  background-color: yellow;
-
+  /* background-image: var(--gradient1); */
+  /* background-image: linear-gradient(to bottom, var(--cor3) 45%, var(--cor4)); */
+  /* background-color: var(--UCLAblue); */
+  background-color: var(--richBlack);
+  /* background-image: linear-gradient(to bottom, var(--celestialBlue), var(--celestialBlue2)); */
   display: flex;
   flex-direction: column;
   align-items: center;
 
+}
+
+
+div#box_1 {
+  width: 45%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+ 
+}
+
+div#box_1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid var(--chocolateCosmos);
 }
 
 
@@ -54,7 +109,7 @@ nav > div#box_2 > ul {
   list-style: none;
   padding: 0;
   width: 60%;
-  background-color: pink;
+ 
  
 }
 
@@ -71,17 +126,30 @@ ul#list_buttons > li > button {
   width: 70%;
   height: auto;
   padding: 5px;
-  background-color: green;
-  border: none;
-  color: white;
+  background-color: #FFFF;
+  border: 2px solid var(--chocolateCosmos);
+  color: var(--chocolateCosmos);
   font-size: 1.1em;
+  font-family: 'Kanit';
+  font-weight: 600;
+  border-radius: 5px;
   
 
 }
 
+
+ul#list_buttons > li >  button:hover {
+  background-color: var(--chocolateCosmos);
+  color: #FFFF;
+  transition: 0.2s ease;
+  border-color: #FFFF;
+  scale: 1;
+  cursor: pointer;
+}
+
 section#content {
   width: 100vw;
-  height: 100vh;
+
   background-color: transparent;
 }
 
@@ -106,9 +174,44 @@ footer {
 
   }
 
+
+  nav > div#box_2 > ul {
+    background-color: pink;
+  }
+
+  div#box_1 {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  div#box_1 > img {
+    width: 60%;
+    max-height: auto;
+
+  }
+
   section#content {
     width: 75vw;
     height: 100vh;
   }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  nav {
+    width: 20vw;
+  }
+
+
+  section#content {
+    width: 80vw;
+  }
+  
 }
 
