@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import './assets/styles/colorsAndFonts.css'
 import AboutMe from './assets/components/AboutMe'
@@ -12,16 +12,47 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 function App() {
 
 
+
+
+  const content = document.getElementById('content')
+
+
+
   const [ativarComponente, setAtivarComponente] = useState(null)
 
 
 
+  const scroll = () => {
+
+
+    useEffect(() => {
+   
+
+      if (window.innerWidth < 800 && content) {
+        content.scrollIntoView({behavior:'smooth'})
+
+      }
+
+    })
+    
+ 
+  }
+
+
   const displayContent = () => {
+
+
+
+
+
+  
 
     switch (ativarComponente) {
 
       case 'sobremim':
         return <AboutMe />
+        
+  
 
       case 'projetos':
         return <Projects />
@@ -36,6 +67,9 @@ function App() {
 
   }
 
+
+
+
   return (
     <>
 
@@ -46,8 +80,12 @@ function App() {
       </div>
 
       <div id='header_icons'>
-        <FaGithub />
-        <FaLinkedin />
+        <a href="https://github.com/Josericardodesouza" target='blank'>
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-ricardo-de-souza-034a90317" target='blank'>
+          <FaLinkedin />
+        </a>
 
         
 
@@ -68,18 +106,25 @@ function App() {
 
         </div>
 
+       
+        <p className='teste' id='title_dev'>Desenvolvedor</p>
+        <div id='animated_title'>
+       
+          <p className='teste'>Front-End</p>
+        </div>
+
         <div id='box_2'>
 
           <ul id='list_buttons'>
-            <li>
+            <li onClick={scroll()}>
             <button onClick={() => setAtivarComponente('sobremim')}>Sobre mim</button>
             </li>
 
-            <li>
+            <li onClick={scroll()}>
             <button onClick={() => setAtivarComponente('projetos')}>Projetos</button>
             </li>
 
-            <li>
+            <li onClick={scroll()}>
             <button onClick={() => setAtivarComponente('habilidades')}>Habilidades</button>
             </li>
           </ul>
@@ -94,6 +139,7 @@ function App() {
 
 
       </nav>
+      
 
       <section id='content'>
         {displayContent()}
@@ -104,6 +150,8 @@ function App() {
     </main>
 
     <footer>
+
+      <p>José R. de Souza &copy; 2025</p>
 
     </footer>
 

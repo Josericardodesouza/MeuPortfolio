@@ -10,11 +10,9 @@
 }
 
 
-h1 {
 
-  
 
-}
+
 
 
 
@@ -43,14 +41,27 @@ div#title_header {
   margin: 0;
   display: block;
   margin: 15px;
+  
 }
 
 div#header_icons {
 
   /* background-color: purple; */
   margin: 15px;
-  font-size: 2.1em;
+  font-size: 2.2em;
   display: flex;
+  gap: 10px;
+}
+
+div#header_icons > a {
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+div#header_icons > a:hover {
+  color: var(--chocolateCosmos2);
+  transform: scale(1.1);
+
 }
 
 div#title_header > h1 {
@@ -59,12 +70,31 @@ div#title_header > h1 {
   font-family: 'Kanit';
   text-align: center;
   font-size: 1.2em;
+  transition: color 0.4s ease, transform 0.4s ease;
+  text-wrap: nowrap;
+  
 
+}
+
+
+div#title_header > h1:hover {
+  transform: scale(1.05);
+  color: var(--chocolateCosmos2);
+}
+
+
+p#title_dev:hover {
+  color: var(--chocolateCosmos2);
+  scale: 1.05;
+  transition: 0.4s ease;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  height: auto;
+  /* background-color: #a9714b; */
+  
 }
 
 nav {
@@ -86,6 +116,7 @@ div#box_1 {
   width: 45%;
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 10px 0px 0px 0px;
  
@@ -98,6 +129,11 @@ div#box_1 > img {
   border: 4px solid var(--chocolateCosmos);
 }
 
+
+div#box_1 > img:hover {
+  scale: 1.05;
+  transition: 0.8s ease;
+}
 
 nav > div#box_2 {
   width: 100%;
@@ -120,6 +156,75 @@ nav > div#box_2 > ul > li {
  
   
 }
+
+
+
+div#animated_title {
+  width: 100%;
+  animation: flashing-market 1.5s step-end infinite, typing 7s steps(22, end) infinite;
+  overflow: hidden;
+  border-right: 2px solid white;
+}
+
+
+
+p.teste {
+  color: white;
+  font-family: 'Kanit';
+  font-weight: 600;
+  font-size: 1.3em;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin: 1px 0px 0px 0px;
+  text-wrap: nowrap;
+}
+
+
+
+
+@keyframes flashing-market {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+  
+   
+}
+
+20% {
+    width: 7.5ch;
+ 
+}
+
+
+
+50% {
+  width: 14.0ch;
+}
+
+
+
+80% {
+    width: 7.5ch;
+   
+}
+
+
+100% {
+    width: 0;
+   
+   
+}
+
+}
+
 
 
 ul#list_buttons > li > button {
@@ -149,69 +254,156 @@ ul#list_buttons > li >  button:hover {
 
 section#content {
   width: 100vw;
+  height: auto;
 
   background-color: transparent;
 }
 
 
 footer {
+
   width: 100vw;
   height: 150px;
-  background-color: blue;
+  /* background-color: blue; */
+  background-color: var(--richBlack);
   margin: 0;
+  transition: transform 6s ease-in;
+    
+  background-color: var(--richBlack);
+  color: white;
+  font-family: 'Kanit';
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+footer > p {
+  margin: 0;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
+
+footer > p:hover {
+  color: var(--chocolateCosmos2);
+  transform: scale(1.05);
+  transition: 0.9s ease;
 }
 
 
 
-@media screen and (min-width: 600px) {
-  main {
-    flex-direction: row;
+@media screen and (min-width: 800px) {
+
+
+
+
+
+  header {
+    width: 25%;
+    max-height: 15vh;
+    flex-direction: column;
+    position: fixed;
+    /* border-bottom: 1px solid yellow; */
   }
+
+
+  
 
   nav {
-    width: 25vw;
-    height: 100vh;
+    width: 25%;
+    min-height: 70vh;
+    position: fixed;
+    top: 15vh;
+  
 
   }
+
+
+
+  
+footer {
+  width: 25vw;
+  max-height: 16vh;
+  top: 84vh;
+
+  position: fixed;
+
+  margin: 0;
+  
+}
+
+
+
+
+  main {
+    flex-direction: row;
+    height: auto;
+  }
+
+
 
 
   nav > div#box_2 > ul {
-    background-color: pink;
+    width: 100%;
+    /* background-color: pink; */
   }
 
   div#box_1 {
     width: 100%;
     height: auto;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     align-items: center;
     justify-content: center;
 
   }
 
+
+  div#title_header {
+    margin: 10px 0px 0px 0px;
+  }
+
+  div#title_header > h1 {
+    font-size: 1.0em;
+
+  }
+
   div#box_1 > img {
-    width: 60%;
+    width: 85%;
     max-height: auto;
 
   }
 
   section#content {
-    width: 75vw;
-    height: 100vh;
+    width: 85vw;
+    margin-left: 25vw;
+   
   }
+
+
+
+
 }
+
 
 
 
 @media screen and (min-width: 1000px) {
-  nav {
-    width: 20vw;
-  }
+
+header, nav, footer {
+  width: 17vw;
+
+}
 
 
-  section#content {
-    width: 80vw;
-  }
+section#content {
+  margin-left: 17vw;
+ 
+}
   
 }
+
+
 

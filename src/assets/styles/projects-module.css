@@ -1,0 +1,244 @@
+
+section#conteiner_projects {
+    width: 100vw;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+div.box_projects {
+    max-width: 290px;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--chocolateCosmos);
+    padding: 0px 0px 10px 0px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.319);
+    align-self: flex-start; 
+    transition: transform 0.4s ease;
+    
+
+
+
+    /* background-image: linear-gradient(to bottom, var(--cor3), var(--cor4)); */
+
+
+
+}
+
+
+div.box_projects:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 6px var(--chocolateCosmos2);
+    
+}
+
+div.box_projects>div.box_img_project {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+div.box_img_project>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+
+
+
+
+div.conteiner_visit_project {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+
+a.box_icons_project {
+
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.423); */
+}
+
+
+a.box_icons_project:hover {
+    cursor: pointer;
+}
+
+
+a.box_icons_project > p {
+    margin: 0;
+}
+
+
+a.box_icons_project > svg {
+    font-size: 1.4em;
+}
+
+a.box_icons_project > p {
+    font-family: 'Nunito';
+
+}
+
+a.icon_goToProject {
+    background-color: var(--chocolateCosmos);
+    box-shadow: none;
+    color: white;
+}
+
+
+a.icon_gitHub {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--chocolateCosmos);
+}
+
+
+
+
+div.box_name_project > h3 {
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    /* color: white; */
+    color: var(--chocolateCosmos);
+    font-size: 1.6em;
+    font-family: 'Kanit';
+ 
+    text-align: center;
+}
+
+
+div.box_techIcon_project {
+    font-size: 2.4em;
+    /* background-color: pink; */
+    /* color: white; */
+    color: var(--chocolateCosmos2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+div.box_about_project {
+    width: 95%;
+    height: auto;
+    /* background-color: aquamarine; */
+    color: white;
+    margin: auto;
+  
+}
+
+
+ h3.title_project {
+    font-size: 1.4em;
+    font-family: 'Kanit';
+    color: var(--richBlack);
+    text-align: center;
+    
+}
+
+
+
+
+
+div.box_about_project > p.description_project {
+    font-size: 0.9em;
+    font-family: 'Nunito';
+    color: var(--richBlack);
+  
+}
+
+div.box_visit_project {
+    /* background-color: green; */
+    width: 90%;
+    height: auto;
+    font-size: 2.1em;
+    /* color: white; */
+    color: var(--chocolateCosmos2);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 0;
+    margin: auto;
+
+
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+    section#conteiner_projects {
+       
+      
+        width: 95%;
+        margin: auto;
+        gap: 15px;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+     
+    }
+
+
+    div.box_projects {
+
+       
+        margin: 0;
+        flex-grow: 10px;
+        align-self: flex-start;
+
+    }
+
+    
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+    
+    section#conteiner_projects {
+        width: 100%;
+        gap: 40px;
+      }
+
+}
+
+

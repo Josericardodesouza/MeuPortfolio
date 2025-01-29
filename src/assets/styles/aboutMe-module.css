@@ -1,0 +1,124 @@
+
+div#conteiner_boxes_aboutMe {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.box_aboutMe {
+    /* width: 90%; */
+    width: 100%;
+    font-family: 'Nunito';
+    /* margin: 0px 0px 20px 5px; */
+    text-indent: 2px;
+    text-align: center;
+
+
+}
+
+
+div.box_aboutMe > p {
+    text-align: left;
+    font-size: 1.0em;
+    margin: 10px 10px 10px 10px;
+}
+
+
+div.box_aboutMe > p > strong {
+    color: var(--chocolateCosmos);
+    font-weight: 800;
+}
+
+
+/* 
+div.box_titleAndIcon {
+    text-align: center;
+    border: 2px solid var(--chocolateCosmos);
+    text-align: center;
+ 
+} */
+
+.icon_aboutMe {
+    font-size: 2.4em;
+    margin-top: 10px;
+    /* background-color: white; */
+    
+  
+  
+}
+
+
+div.box_aboutMe > h3 {
+    text-align: center;
+    margin: 0;
+}
+
+
+div.box_aboutMe > p.text_graduation {
+    text-align: center;
+}
+
+
+
+div#box_i {
+    /* background-color: var(--chocolateCosmos); */
+    /* color: white; */
+}
+
+div#box_i > p > strong {
+    /* color: white; */
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+    div#conteiner_boxes_aboutMe {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 9px;
+        justify-content: center;
+     
+    }
+
+    div.box_aboutMe {
+        width: 45%;
+        border: 2px solid var(--chocolateCosmos);
+        border-radius: 10px;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    div.box_aboutMe:hover {
+        background-color: var(--chocolateCosmos);
+        color: white;
+        transition: 0.4s ease;
+      
+        
+    }
+
+    div.box_aboutMe:hover > p {
+      
+        font-size: 1.1em;
+    }
+
+    div.box_aboutMe:hover > p > strong {
+        color: var(--richBlack);
+    }
+
+
+
+ 
+    
+
+
+
+    div.box_text {
+        border: 2px solid black;
+
+    }
+
+}

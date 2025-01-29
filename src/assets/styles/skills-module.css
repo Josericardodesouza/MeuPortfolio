@@ -1,0 +1,95 @@
+
+div#conteiner_icons_skills {
+    width: 95vw;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+
+div.box_tech {
+    width: 30%;
+    /* min-width: 130px; */
+    /* background-color: yellow; */
+    background-color: #FFFF;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Nunito';
+    padding: 10px;
+    border-radius: 5px;
+
+    border: 2px solid var(--chocolateCosmos);
+    color: var(--chocolateCosmos);
+
+    transition: scale 0.2s ease;
+}
+
+div.box_tech>svg {
+    font-size: 2.1em;
+    margin-right: 10px;
+}
+
+
+div.box_tech:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+div#box_html5:hover {
+    background-color: var(--chocolateCosmos);
+    color: orange;
+    transition: 0.2s;
+
+}
+
+div#box_css3:hover {
+    background-color: var(--chocolateCosmos);
+    color: rgb(0, 166, 255);
+    transition: 0.2s;
+}
+
+div#box_js:hover {
+    background-color: var(--chocolateCosmos);
+    color: yellow;
+    transition: 0.2s;
+}
+
+div#box_react:hover {
+    background-color: var(--chocolateCosmos);
+    color: aqua;
+    transition: 0.2s;
+}
+
+div#box_git:hover {
+    background-color: var(--chocolateCosmos);
+    color: rgb(255, 77, 0);
+    transition: 0.2s;
+}
+
+
+
+@media screen and (min-width: 500px) {
+
+
+    div#conteiner_icons_skills {
+        width: 90%;
+      
+    }
+
+    div.box_tech {
+        min-width: 20%;
+       
+    }
+}

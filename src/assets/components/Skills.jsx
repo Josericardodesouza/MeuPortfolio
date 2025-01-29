@@ -1,6 +1,9 @@
 import { FaCss3 } from "react-icons/fa"
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaJs, FaReact } from "react-icons/fa6"
 
+import '../styles/styles-components.css'
+import '../styles/skills-module.css'
+
 function Skills() {
     return (
         <>
