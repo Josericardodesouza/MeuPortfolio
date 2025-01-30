@@ -11,6 +11,7 @@ import { LuSquareArrowOutUpRight } from 'react-icons/lu'
 import imageDS from '../imgs/imgs-projects/josericardodesouza.github.io_projeto-zericardo-animeswiki-demonslayer.png'
 import imageSA from '../imgs/imgs-projects/siteacademia.png'
 import imageST from '../imgs/imgs-projects/conversor-temperaturas-jricardo.netlify.app2.png'
+import imageSC from '../imgs/imgs-projects/sitecafeteria.png'
 
 function Projects() {
     return (
@@ -30,7 +31,7 @@ function Projects() {
 
                         <div className="box_img_project">
 
-                            <img src={teste1} alt="" />
+                            <img src={imageSC} alt="" />
 
                         </div>
 

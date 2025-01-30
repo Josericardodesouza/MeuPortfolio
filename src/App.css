@@ -306,6 +306,7 @@ footer > p:hover {
     flex-direction: column;
     position: fixed;
     /* border-bottom: 1px solid yellow; */
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.114);
   }
 
 
@@ -316,6 +317,7 @@ footer > p:hover {
     min-height: 70vh;
     position: fixed;
     top: 15vh;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.114);
   
 
   }
@@ -331,6 +333,8 @@ footer {
   position: fixed;
 
   margin: 0;
+
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.114);
   
 }
 

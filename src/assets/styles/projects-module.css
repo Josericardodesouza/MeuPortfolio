@@ -23,6 +23,7 @@ div.box_projects {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.319);
     align-self: flex-start; 
     transition: transform 0.4s ease;
+    background-color: white;
     
 
 
@@ -40,7 +41,7 @@ div.box_projects:hover {
     
 }
 
-div.box_projects>div.box_img_project {
+div.box_projects> div.box_img_project {
     width: 100%;
     height: 30%;
     display: flex;
