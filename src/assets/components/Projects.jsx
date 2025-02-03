@@ -7,13 +7,11 @@ import '../styles/projects-module.css'
 import { TbTemperature } from 'react-icons/tb'
 import { LuSquareArrowOutUpRight } from 'react-icons/lu'
 
-import image from '../imgs/svgs/undraw_developer-activity_dn7p.svg'
 
-
-import imageDS from '../imgs/imgs-projects/image-zericardoanimeswiki.png'
-import imageSA from '../imgs/imgs-projects/image-siteacademia.png'
-import imageST from '../imgs/imgs-projects/image-conversortemp.png'
-import imageSC from '../imgs/imgs-projects/image-sitecafeteria.png'
+import imageDS from '../imgs/imgs-projects/josericardodesouza.github.io_projeto-zericardo-animeswiki-demonslayer.png'
+import imageSA from '../imgs/imgs-projects/siteacademia.png'
+import imageST from '../imgs/imgs-projects/conversor-temperaturas-jricardo.netlify.app2.png'
+import imageSC from '../imgs/imgs-projects/sitecafeteria.png'
 
 function Projects() {
     return (
@@ -23,19 +21,7 @@ function Projects() {
 
 
                 <div className="conteiner">
-
-                    <div className='titles_box'>
-                        <h2 className="title_content">Projetos</h2>
-
-                        <p className='subtitle_content'>Confira abaixo meus mais recentes projetos pessoais</p> 
-                    </div>
-
-                    <div className='box_img'>
-                        <img src={image} alt="" />
-
-                    </div>
-
-
+                    <h2 className="title_content">Projetos</h2>
                 </div>
 
 
@@ -99,7 +85,7 @@ function Projects() {
 
 
 
-                    <div className="box_projects" id='box_project_st'>
+                    <div className="box_projects">
 
                         <div className="box_img_project">
 
@@ -139,9 +125,7 @@ function Projects() {
                         <div className='box_about_project'>
 
                             <p className='description_project'>
-                                Este projeto com design simples possibilita três formas de conversão de escalas termométricas: <span>Celsius, Fahrenheit</span> e <span>Kelvin</span>. O usuário <span>insere</span> a temperatura no campo, <span>seleciona</span> a <span>escala inicial</span> e a <span>escala final</span>. Dependendo do resultado obtido, o código retorna uma <span>frase de efeito</span> e uma <span>imagem</span>.
-
-                          
+                                Este projeto com design simples possiblita três formas de conversão de escalas termométricas: <span>Celsius, Fahrenheit e Kelvin</span>. O usuário <span>insere</span> a temperatura no campo, <span>seleciona</span> qual a escala dela e <span>escolhe</span> a escala final. A depender do resultado obtido, o código retorna uma <span>frase de efeito</span> e uma <span>imagem</span>.
                             </p>
 
                         </div>
@@ -163,7 +147,7 @@ function Projects() {
 
 
 
-                    <div className="box_projects" id='box_project_sa'>
+                    <div className="box_projects">
 
                         <div className="box_img_project">
 
@@ -199,9 +183,7 @@ function Projects() {
 
                         <div className='box_about_project'>
 
-                            <p className='description_project'>Este projeto é um site de uma <span>academia fictícia</span> que oferece <span>três ferramentas de cálculo</span> que desenvolvi usando <span>JavaScript</span>: uma para obtenção de <span>IMC (Índice de Massa Corporal)</span>, outra para <span>cálculo de valor calórico</span> e outra para <span>GEB (Gasto Energético Basal)</span>. Neste projeto, usei meus conhecimentos em <span>JavaScript</span> e a <span>API</span> do <span>Via CEP</span>, além do conceito de <span>Mobile First</span>.</p>
-
-                         
+                            <p className='description_project'>Este projeto é um site de uma <span>academia fictícia</span> que oferece <span>três ferramentas de cálculo</span> que desenvolvi usando <span>JavaScript</span>, sendo elas para obtenção de <span>IMC (Índice de Massa Corporal)</span>, <span>valor calórico</span> e de <span>GEB (Gasto Energético Basal)</span>. Neste projeto, usei meus conhecimentos em <span>JavaScript</span> e a <span>API</span> do <span>Via CEP</span>, além do conceito de <span>Mobile First</span>.</p>
 
                         </div>
 
@@ -219,11 +201,16 @@ function Projects() {
 
 
 
-                    <div className="box_projects" id='box_project_ds'>
+                    <div className="box_projects">
 
                         <div className="box_img_project">
 
                             <img src={imageDS} alt="" />
+
+
+
+
+
                         </div>
 
 
@@ -254,12 +241,7 @@ function Projects() {
 
                         <div className='box_about_project'>
 
-                            <p className='description_project'>Meu primeiro site usando meus conhecimentos iniciais em <span>HTML</span> e <span>CSS</span>. Este projeto é uma pequena página que fala sobre o anime <span>Demon Slayer</span> e seus personagens. Nas imagens, usei pela primeira vez, o efeito <span>Parallax</span>.</p>
-                        
-{/* 
-                            <p className='description_project'>Tempo de desenvolvimento: <span>Dez/2023 - Fev/2024</span></p> */}
-
-                         
+                            <p className='description_project'>Meu primeiro site usando meus conhecimentos iniciais em <span>HTML</span> e <span>CSS</span>. Este projeto é uma pequena página falando sobre o anime <span>Demon Slayer</span> e seus personagens. Para as imagens, usei o efeito <span>Parallax</span></p>
 
                         </div>
 

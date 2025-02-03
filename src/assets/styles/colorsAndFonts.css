@@ -13,39 +13,24 @@
     --gradient1: linear-gradient(to bottom, #B89E97, #DECCCC);
 
     --UCLAblue: #2274A5;
- 
+    --pearl: #E7DFC6;
+    --aliceBlue: #E9F1F7;
+    --richBlack: #131B23;
     --cinereous: #816C61;
 
     --gradient1: linear-gradient(to bottom, var(--UCLAblue), var(--richBlack));
 
 
+    --chocolateCosmos: #4C191B;
     --celestialBlue: #39A0ED;
     --celestialBlue2: #50a9ed;
-    --chocolateCosmos2: #b7161b;
+    --chocolateCosmos2: #b7161b;;
     /* --chocolateCosmos2: #b7161b; */
 
 
-  /*Nova paleta de cores*/
 
-  
-  --chocolateCosmos: #4C191B; /*cores dos titulos, icones*/
-  --richBlack: #131B23; /*cor das fontes*/
-  --pearl: #E7DFC6;
-  --aliceBlue: #E9F1F7;
-  --chocolateCosmos3: #99494b;
-  --chocolateCosmos4: #614243;
-
-
-
-  --gradient2: linear-gradient(to bottom, var(--chocolateCosmos) 70% , var(--chocolateCosmos4));
-  
 
 
 }
-
-
-
-
-
 
 

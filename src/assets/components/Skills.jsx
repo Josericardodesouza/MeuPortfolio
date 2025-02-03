@@ -1,8 +1,6 @@
 import { FaCss3 } from "react-icons/fa"
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaJs, FaReact } from "react-icons/fa6"
 
-import image from '../imgs/svgs/undraw_code-review_ept3.svg'
-
 import '../styles/styles-components.css'
 import '../styles/skills-module.css'
 
@@ -13,16 +11,8 @@ function Skills() {
         <main className="component">
 
         <div className="conteiner">
-            <div className="titles_box">
-                <h2 className="title_content">Habilidades</h2>
-                
-                 <p className="subtitle_content">Abaixo estão as tecnologias que domino ou estou estudando no momento</p> 
-            </div>
-
-            <div className="box_img" id="box_img_skills">
-                <img src={image} alt="" />
-
-            </div>
+            <h2 className="title_content">Habilidades</h2>
+            {/* <p className="subtitle_content">Abaixo estão as tecnologias que domino ou estou estudando no momento</p> */}
         </div>
 
         <div id="conteiner_icons_skills">

@@ -6,7 +6,7 @@ import AboutMe from './assets/components/AboutMe'
 import Projects from './assets/components/Projects'
 import Skills from './assets/components/Skills'
 
-import photo from './assets/imgs/foto719.jpg'
+import photo from './assets/imgs/pexels-pixabay-41162.jpg'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function App() {
@@ -30,8 +30,6 @@ function App() {
 
       if (window.innerWidth < 800 && content) {
         content.scrollIntoView({behavior:'smooth'})
-
-      } else {
 
       }
 
@@ -98,7 +96,7 @@ function App() {
 
     </header>
 
-    <main id='top'>
+    <main>
 
       <nav>
 
@@ -109,10 +107,10 @@ function App() {
         </div>
 
        
-        <p className='p_nav' id='title_dev'>Desenvolvedor</p>
+        <p className='teste' id='title_dev'>Desenvolvedor</p>
         <div id='animated_title'>
        
-          <p className='p_nav' id='title_front-end'>Front-End</p>
+          <p className='teste'>Front-End</p>
         </div>
 
         <div id='box_2'>
@@ -151,11 +149,11 @@ function App() {
 
     </main>
 
-    {/* <footer>
+    <footer>
 
       <p>José R. de Souza &copy; 2025</p>
 
-    </footer> */}
+    </footer>
 
 
       

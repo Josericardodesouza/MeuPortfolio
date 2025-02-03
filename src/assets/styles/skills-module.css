@@ -15,12 +15,9 @@ div.box_tech {
     width: 30%;
     /* min-width: 130px; */
     /* background-color: yellow; */
-    /* background-color: #FFFF; */
-    background-color: transparent;
-    background-color: var(--richBlack);
+    background-color: #FFFF;
     display: flex;
     flex-wrap: wrap;
-
 
 
     align-items: center;
@@ -34,7 +31,7 @@ div.box_tech {
     border-radius: 5px;
 
     border: 2px solid var(--chocolateCosmos);
-    color: var(--chocolateCosmos2);
+    color: var(--chocolateCosmos);
 
     transition: scale 0.2s ease;
 }
