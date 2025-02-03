@@ -4,14 +4,25 @@ import '../styles/aboutMe-module.css'
 import { FaUserAlt } from 'react-icons/fa'
 import { TbMoodNerd } from 'react-icons/tb'
 
+import image from '../imgs/svgs/undraw_feeling-proud_tdos-oficial.svg'
+
 function AboutMe() {
     return (
         <>
 
             <main className='component'>
                 <div className="conteiner">
-                    <h2 className="title_content">Olá, mundo!</h2>
-                    <p className='subtitle_content'>Meu nome é José Ricardo e esse é meu portfólio!</p>
+                    <div className='titles_box'>
+                        <h2 className="title_content">Olá, mundo!</h2>
+                         <p className='subtitle_content'>Meu nome é José Ricardo e esse é meu portfólio profissional onde colocarei minhas informações profissionais e meus projetos :)</p> 
+                    </div>
+
+        
+                    <div className='box_img'>
+                        <img src={image} alt="" />
+
+                    </div>
+                 
                 </div>
 
 
@@ -22,27 +33,27 @@ function AboutMe() {
                         <div className='box_aboutMe' id='box_i'>
                             <TbMoodNerd className='icon_aboutMe' />
                             <h3>Quem sou?</h3>
-                            
-                            <p>Sou natural da Bahia e, No ínicio de 2023, ingressei na faculdade de Análise e Desenvolvimento de Sistemas pela <strong>UNOPAR</strong>. Durante o segundo semestre deste mesmo ano, me dediquei ao estudo de Desenvolvimento Front-End, tanto que concluí os cinco módulos do curso de HTML5 e CSS3 da plataforma Curso Em Vídeo, e também o curso de JavaScript do mesmo professor Gustavo Guanabara. Além disso, explorei e aprendi muito mais em conteúdos online.
-                            </p>
+
                             <p>
-                                Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus projetos projetos pessoais, treinando minha lógica. Atualmente, venho estudando React e entendendo mais de Git, o que acredito serem essenciais para o desenvolvimento de minha carreira.
+                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, começei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus  <strong>projetos projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong>e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
                             </p>
+          
                         </div>
                         <div className='box_aboutMe'>
                             <FaLaptop className='icon_aboutMe' />
                             <h3>Por que escolhi ser um desenvolvedor Front-End?</h3>
-                            <p>Entrar no mundo da programação para mim sempre foi uma coisa fascinante, mas não tinha muita noção sobre o que era. Estudar lógica e, posteriormente, HTML, CSS e JavaScript me fizeram ver que o Desenvolvimento Web poderia ser minha porta de entrada, devido á sua popularidade e o fato de combinar com meu interesse por design e animações.
+
+                            <p>Entrar no mundo da programação para mim sempre foi uma coisa fascinante, mas não tinha muita noção sobre o que era. Estudar lógica e, posteriormente, <strong>HTML</strong>, <strong>CSS</strong> e<strong> JavaScript</strong> me fizeram ver que o <strong>Desenvolvimento Web</strong> poderia ser minha porta de entrada, devido á sua popularidade e o fato de combinar com meu interesse por <strong>design</strong> e <strong>animações</strong>.
                             </p>
                             <p>
-                                Contudo, anseio em me tornar um desenvolvedor Full Stack e contribuir em muitos outros projetos.
+                                Contudo, anseio em me tornar um <strong>desenvolvedor Full Stack</strong> e contribuir em muitos outros projetos.
                             </p>
                         </div>
                         <div className='box_aboutMe'>
                             <FaGraduationCap className='icon_aboutMe' />
                             <h3>Graduações</h3>
                             <p className='text_graduation'>Análise e Desenvolvimento de Sistemas</p>
-                            <p className='text_graduation'>desde 2023</p>
+                            <p className='text_graduation'><strong>desde 2023</strong></p>
                         </div>
                 </div>
 

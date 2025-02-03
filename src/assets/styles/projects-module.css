@@ -24,6 +24,7 @@ div.box_projects {
     align-self: flex-start; 
     transition: transform 0.4s ease;
     background-color: white;
+ 
     
 
 
@@ -37,7 +38,7 @@ div.box_projects {
 
 div.box_projects:hover {
     transform: scale(1.02);
-    box-shadow: 0px 0px 6px var(--chocolateCosmos2);
+    /* box-shadow: 0px 0px 6px var(--chocolateCosmos2); */
     
 }
 
@@ -179,7 +180,29 @@ div.box_about_project > p.description_project {
     font-size: 0.9em;
     font-family: 'Nunito';
     color: var(--richBlack);
+    font-weight: 600;
   
+}
+
+
+div.box_about_project > p.description_project > span {
+    color: var(--chocolateCosmos);
+    font-weight: 700;
+}
+
+
+
+div#box_project_st:hover {
+    box-shadow: 0px 0px 10px #308BDA;
+}
+
+div#box_project_sa:hover {
+    box-shadow: 0px 0px 10px orange;
+}
+
+div#box_project_ds:hover {
+    box-shadow: 0px 0px 10px red;
+    
 }
 
 div.box_visit_project {
