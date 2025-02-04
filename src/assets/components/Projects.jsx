@@ -27,7 +27,7 @@ function Projects() {
                     <div className='titles_box'>
                         <h2 className="title_content">Projetos</h2>
 
-                        <p className='subtitle_content'>Confira abaixo meus mais recentes projetos pessoais</p> 
+                        <p className='subtitle_content'>Confira  meus mais recentes projetos</p> 
                     </div>
 
                     <div className='box_img'>
@@ -49,11 +49,12 @@ function Projects() {
 
                         </div>
 
+
                         <div className='conteiner_visit_project'>
 
                             <a className='box_icons_project icon_goToProject'>
                                 <LuSquareArrowOutUpRight />
-                                <p>Ver projeto</p>
+                                <p>Ver prévia</p>
                             </a>
                             <a className='box_icons_project icon_gitHub'>
                                 <FaGithub />
@@ -75,7 +76,12 @@ function Projects() {
 
                         <div className='box_about_project'>
                             {/* <h3 className='title_project'>Sobre o projeto</h3> */}
-                            <p className='description_project'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad laudantium quam error non omnis impedit dolorum similique repudiandae officiis sequi et commodi tenetur, eos quia cum blanditiis, aliquam adipisci nemo!</p>
+                            <p className='description_project'>Este projeto foi desenvolvido durante meus estudos com a <strong>Context API</strong> e o <strong>framework Swiper</strong>, do React. Ele consiste em uma <strong>cafeteria virtual fictícia</strong> onde os usuários podem escolher entre uma variedade de <strong>bebidas quentes</strong>, <strong>geladas</strong> e <strong>doces</strong>. Quando os itens desejados são selecionados, eles são passados de uma página para outra utilizando a Context API. O site também conta com uma <strong>simulação de serviço delivery</strong>, usando a <strong>API do ViaCEP</strong>, e uma seção de comentários, proporcionando uma experiência interativa e envolvente.</p>
+
+
+                            <p className='p_inDevelopment'>Em desenvolvimento</p>
+
+
 
                         </div>
 
@@ -83,10 +89,10 @@ function Projects() {
                         <h3 className='title_project'>Tecnologias abordadas</h3>
 
                         <div className='box_techIcon_project'>
-                            <FaHtml5 />
-                            <FaCss3Alt />
-                            <FaJs />
-                            <FaReact />
+                            <FaHtml5 className='icon_html_projects' />
+                            <FaCss3Alt className='icon_css_projects' />
+                            <FaJs className='icon_js_projects' />
+                            <FaReact className='icon_react_projects' />
 
                         </div>
 
@@ -141,17 +147,20 @@ function Projects() {
                             <p className='description_project'>
                                 Este projeto com design simples possibilita três formas de conversão de escalas termométricas: <span>Celsius, Fahrenheit</span> e <span>Kelvin</span>. O usuário <span>insere</span> a temperatura no campo, <span>seleciona</span> a <span>escala inicial</span> e a <span>escala final</span>. Dependendo do resultado obtido, o código retorna uma <span>frase de efeito</span> e uma <span>imagem</span>.
 
+
                           
                             </p>
+
+                            <p className='description_project'><span>Agosto/2024 - Outubro/2024</span></p>
 
                         </div>
 
                         <h3 className='title_project'>Tecnologias abordadas</h3>
 
                         <div className='box_techIcon_project'>
-                            <FaHtml5 />
-                            <FaCss3Alt />
-                            <FaJs />
+                            <FaHtml5 className='icon_html_projects' />
+                            <FaCss3Alt className='icon_css_projects' />
+                            <FaJs className='icon_js_projects' />
 
                         </div>
 
@@ -201,6 +210,8 @@ function Projects() {
 
                             <p className='description_project'>Este projeto é um site de uma <span>academia fictícia</span> que oferece <span>três ferramentas de cálculo</span> que desenvolvi usando <span>JavaScript</span>: uma para obtenção de <span>IMC (Índice de Massa Corporal)</span>, outra para <span>cálculo de valor calórico</span> e outra para <span>GEB (Gasto Energético Basal)</span>. Neste projeto, usei meus conhecimentos em <span>JavaScript</span> e a <span>API</span> do <span>Via CEP</span>, além do conceito de <span>Mobile First</span>.</p>
 
+                            <p className='description_project'><span>Fevereiro/2024 - Abril/2024</span></p>
+
                          
 
                         </div>
@@ -209,9 +220,9 @@ function Projects() {
 
 
                         <div className='box_techIcon_project'>
-                            <FaHtml5 />
-                            <FaCss3Alt />
-                            <FaJs />
+                            <FaHtml5 className='icon_html_projects' />
+                            <FaCss3Alt className='icon_css_projects' />
+                            <FaJs className='icon_js_projects' />
 
                         </div>
 
@@ -255,6 +266,8 @@ function Projects() {
                         <div className='box_about_project'>
 
                             <p className='description_project'>Meu primeiro site usando meus conhecimentos iniciais em <span>HTML</span> e <span>CSS</span>. Este projeto é uma pequena página que fala sobre o anime <span>Demon Slayer</span> e seus personagens. Nas imagens, usei pela primeira vez, o efeito <span>Parallax</span>.</p>
+
+                            <p className='description_project'><span>Dezembro/2023 - Janeiro/2024</span></p>
                         
 {/* 
                             <p className='description_project'>Tempo de desenvolvimento: <span>Dez/2023 - Fev/2024</span></p> */}
@@ -267,8 +280,8 @@ function Projects() {
                         <h3 className='title_project'>Tecnologias abordadas</h3>
 
                         <div className='box_techIcon_project'>
-                            <FaHtml5 />
-                            <FaCss3Alt />
+                            <FaHtml5 className='icon_html_projects' />
+                            <FaCss3Alt className='icon_html_projects' />
                    
 
                         </div>

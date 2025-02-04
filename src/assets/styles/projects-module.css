@@ -55,6 +55,18 @@ div.box_projects> div.box_img_project {
 }
 
 
+
+
+p.p_inDevelopment {
+    font-size: 0.9em;
+    color: red;
+    font-family: 'Nunito';
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
 div.box_img_project>img {
     display: block;
     width: 100%;
@@ -220,6 +232,23 @@ div.box_visit_project {
     margin: auto;
 
 
+}
+
+
+.icon_html_projects:hover {
+    color: #e46526;
+}
+
+.icon_css_projects:hover {
+    color: rgb(0, 98, 255);
+}
+
+.icon_js_projects:hover {
+    color: yellow;
+}
+
+.icon_react_projects:hover {
+    color: aqua;
 }
 
 

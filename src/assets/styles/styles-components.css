@@ -9,6 +9,7 @@
 
 
 
+
 div.conteiner {
     background-color: var(--chocolateCosmos);
     width: 100%;
@@ -42,16 +43,25 @@ h2.title_content {
     color: white;
     margin: 50px auto 10px auto;
 
+    transition: ease 0.6s;
+
+}
+
+
+h2.title_content:hover {
+    transform: scale(1.1);
+    transition: ease 0.6s;
+    color: var(--chocolateCosmos2);
 }
 
 p.subtitle_content {
     width: 90%;
     font-size: 1.2em;
     font-family: 'Nunito';
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
   
-    color: black;
+    color: aliceblue;
     margin: 0px auto 10px auto;
 }
 
@@ -91,7 +101,7 @@ section.content_component {
 
     div.conteiner {
         width: 100%;
-        height: 50vh;
+        height: 55vh;
         /* border-bottom: 3px solid var(--richBlack); */
         margin-bottom: 90px;
         font-size: 1.9em;
@@ -110,6 +120,7 @@ section.content_component {
         width: 70%;
         z-index: 2;
         margin: 0;
+        margin-left: 50px;
 
     }
 
@@ -125,7 +136,7 @@ section.content_component {
     p.subtitle_content {
         font-size: 0.9em;
         width: 60%;
-        color: black;
+      
         
         margin: 0;
         

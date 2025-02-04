@@ -14,12 +14,13 @@
 
 
 
-
+/* 
 
 div.conteiner {
   width: 100%;
-  /* background-color: green; */
-}
+  
+   background-color: green; 
+} */
 
 header {
    /* background-color: #B89E97; */
@@ -478,6 +479,8 @@ footer {
    
   }
 
+
+ 
 
 
 
