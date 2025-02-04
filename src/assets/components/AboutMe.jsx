@@ -14,7 +14,7 @@ function AboutMe() {
                 <div className="conteiner">
                     <div className='titles_box'>
                         <h2 className="title_content">Olá, mundo!</h2>
-                         <p className='subtitle_content'>Meu nome é José Ricardo e esse é meu portfólio profissional onde colocarei minhas informações profissionais e meus projetos :)</p> 
+                         <p className='subtitle_content'>Meu nome é José Ricardo e este é meu portfólio profissional onde colocarei minhas informações profissionais e meus projetos :)</p> 
                     </div>
 
         
@@ -35,7 +35,7 @@ function AboutMe() {
                             <h3>Quem sou?</h3>
 
                             <p>
-                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, comecei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus  <strong>projetos projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong>e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
+                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, comecei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus<strong> projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong> e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
                             </p>
           
                         </div>
