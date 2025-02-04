@@ -135,11 +135,15 @@ section.content_component {
 
     p.subtitle_content {
         font-size: 0.9em;
-        width: 60%;
+        width: 80%;
       
         
         margin: 0;
         
+    }
+
+    p#aboutMe_subtitle {
+        font-size: 0.7em;
     }
 
 
