@@ -52,11 +52,11 @@ function Projects() {
 
                         <div className='conteiner_visit_project'>
 
-                            <a className='box_icons_project icon_goToProject'>
+                            <a className='box_icons_project icon_goToProject' href='https://site-cafeteria-jricardodev.netlify.app/' target='blank'>
                                 <LuSquareArrowOutUpRight />
                                 <p>Ver prévia</p>
                             </a>
-                            <a className='box_icons_project icon_gitHub'>
+                            <a className='box_icons_project icon_gitHub' href='https://github.com/Josericardodesouza/projeto-site-cafeteria' target='blank'>
                                 <FaGithub />
                                 <p>ver repositório</p>
                             </a>
@@ -66,7 +66,7 @@ function Projects() {
                         </div>
 
                         <div className='box_name_project'>
-                            <h3>Site Cafeteria</h3>
+                            <h3>Cantinho do Café</h3>
                         </div>
 
 
@@ -203,7 +203,7 @@ function Projects() {
                         </div>
 
                         <div className='box_name_project'>
-                            <h3>Site Lorem Ipsum Fitness</h3>
+                            <h3>Lorem Ipsum Fitness</h3>
                         </div>
 
                         <div className='box_about_project'>
@@ -258,7 +258,7 @@ function Projects() {
                         </div>
 
                         <div className='box_name_project'>
-                            <h3>Site Demon Slayer</h3>
+                            <h3>ZeRicardo Animes Wiki</h3>
                         </div>
 
 
