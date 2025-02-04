@@ -13,7 +13,7 @@ import image from '../imgs/svgs/undraw_developer-activity_dn7p.svg'
 import imageDS from '../imgs/imgs-projects/image-zericardoanimeswiki.png'
 import imageSA from '../imgs/imgs-projects/image-siteacademia.png'
 import imageST from '../imgs/imgs-projects/image-conversortemp.png'
-import imageSC from '../imgs/imgs-projects/image-sitecafeteria.png'
+import imageSC from '../imgs/imgs-projects/image-sitecafeteria-2.png'
 
 function Projects() {
     return (
