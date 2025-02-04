@@ -6,7 +6,7 @@ import AboutMe from './assets/components/AboutMe'
 import Projects from './assets/components/Projects'
 import Skills from './assets/components/Skills'
 
-import photo from './assets/imgs/foto719.jpg'
+import photo from './assets/imgs/i-photo.jpg'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function App() {
