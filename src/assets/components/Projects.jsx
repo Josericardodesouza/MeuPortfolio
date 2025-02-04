@@ -41,7 +41,7 @@ function Projects() {
 
                 <section id="conteiner_projects">
 
-                    <div className="box_projects">
+                    <div className="box_projects" id='box_project_sc'>
 
                         <div className="box_img_project">
 

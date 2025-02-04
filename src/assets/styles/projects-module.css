@@ -205,6 +205,10 @@ div.box_about_project > p.description_project > span {
 }
 
 
+div#box_project_sc:hover {
+    box-shadow: 0px 0px 10px #c57b57;
+    
+}
 
 div#box_project_st:hover {
     box-shadow: 0px 0px 10px #308BDA;
