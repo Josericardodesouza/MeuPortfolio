@@ -79,7 +79,7 @@ function Projects() {
                             <p className='description_project'>Este projeto foi desenvolvido durante meus estudos com a <strong>Context API</strong> e o <strong>framework Swiper</strong>, do React. Ele consiste em uma <strong>cafeteria virtual fictícia</strong> onde os usuários podem escolher entre uma variedade de <strong>bebidas quentes</strong>, <strong>geladas</strong> e <strong>doces</strong>. Quando os itens desejados são selecionados, eles são passados de uma página para outra utilizando a Context API. O site também conta com uma <strong>simulação de serviço delivery</strong>, usando a <strong>API do ViaCEP</strong>, e uma seção de comentários, proporcionando uma experiência interativa e envolvente.</p>
 
 
-                            <p className='p_inDevelopment'>Em desenvolvimento</p>
+                            <p className='description_project'><span>Outubro/2024 &#8594; em desenvolvimento</span></p>
 
 
 
