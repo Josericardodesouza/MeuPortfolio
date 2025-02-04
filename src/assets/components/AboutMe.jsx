@@ -35,7 +35,7 @@ function AboutMe() {
                             <h3>Quem sou?</h3>
 
                             <p>
-                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, começei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus  <strong>projetos projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong>e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
+                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, comecei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus  <strong>projetos projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong>e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
                             </p>
           
                         </div>
@@ -52,8 +52,8 @@ function AboutMe() {
                         <div className='box_aboutMe'>
                             <FaGraduationCap className='icon_aboutMe' />
                             <h3>Graduações</h3>
-                            <p className='text_graduation'>Análise e Desenvolvimento de Sistemas</p>
-                            <p className='text_graduation'><strong>desde 2023</strong></p>
+                            <p className='text_graduation'>Análise e Desenvolvimento de Sistemas - <strong>Em andamento</strong></p>
+                            <p className='text_graduation'><strong> 2023 &#8594; 2025</strong></p>
                         </div>
                 </div>
 
