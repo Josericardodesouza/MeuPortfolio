@@ -199,7 +199,7 @@ div.box_about_project > p.description_project {
 }
 
 
-div.box_about_project > p.description_project > span {
+div.box_about_project > p.description_project > strong {
     color: var(--chocolateCosmos);
     font-weight: 700;
 }

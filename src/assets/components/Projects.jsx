@@ -79,7 +79,7 @@ function Projects() {
                             <p className='description_project'>Este projeto foi desenvolvido durante meus estudos com a <strong>Context API</strong> e o <strong>framework Swiper</strong>, do React. Ele consiste em uma <strong>cafeteria virtual fictícia</strong> onde os usuários podem escolher entre uma variedade de <strong>bebidas quentes</strong>, <strong>geladas</strong> e <strong>doces</strong>. Quando os itens desejados são selecionados, eles são passados de uma página para outra utilizando a Context API. O site também conta com uma <strong>simulação de serviço delivery</strong>, usando a <strong>API do ViaCEP</strong>, e uma seção de comentários, proporcionando uma experiência interativa e envolvente.</p>
 
 
-                            <p className='description_project'><span>Outubro/2024 &#8594; em desenvolvimento</span></p>
+                            <p className='description_project'><strong>Outubro/2024 &#8594; em desenvolvimento</strong></p>
 
 
 
@@ -145,13 +145,13 @@ function Projects() {
                         <div className='box_about_project'>
 
                             <p className='description_project'>
-                                Este projeto com design simples possibilita três formas de conversão de escalas termométricas: <span>Celsius, Fahrenheit</span> e <span>Kelvin</span>. O usuário <span>insere</span> a temperatura no campo, <span>seleciona</span> a <span>escala inicial</span> e a <span>escala final</span>. Dependendo do resultado obtido, o código retorna uma <span>frase de efeito</span> e uma <span>imagem</span>.
+                                Este projeto com design simples possibilita três formas de conversão de escalas termométricas: <strong>Celsius, Fahrenheit</strong> e <strong>Kelvin</strong>. O usuário <strong>insere</strong> a temperatura no campo, <strong>seleciona</strong> a <strong>escala inicial</strong> e a <strong>escala final</strong>. Dependendo do resultado obtido, o código retorna uma <strong>frase de efeito</strong> e uma <strong>imagem</strong>.
 
 
                           
                             </p>
 
-                            <p className='description_project'><span>Agosto/2024 &#8594; Outubro/2024</span></p>
+                            <p className='description_project'><strong>Agosto/2024 &#8594; Outubro/2024</strong></p>
 
                         </div>
 
@@ -208,9 +208,9 @@ function Projects() {
 
                         <div className='box_about_project'>
 
-                            <p className='description_project'>Este projeto é um site de uma <span>academia fictícia</span> que oferece <span>três ferramentas de cálculo</span> que desenvolvi usando <span>JavaScript</span>: uma para obtenção de <span>IMC (Índice de Massa Corporal)</span>, outra para <span>cálculo de valor calórico</span> e outra para <span>GEB (Gasto Energético Basal)</span>. Neste projeto, usei meus conhecimentos em <span>JavaScript</span> e a <span>API</span> do <span>Via CEP</span>, além do conceito de <span>Mobile First</span>.</p>
+                            <p className='description_project'>Este projeto é um site de uma <strong>academia fictícia</strong> que oferece <strong>três ferramentas de cálculo</strong> que desenvolvi usando <strong>JavaScript</strong>: uma para obtenção de <strong>IMC (Índice de Massa Corporal)</strong>, outra para <strong>cálculo de valor calórico</strong> e outra para <strong>GEB (Gasto Energético Basal)</strong>. Neste projeto, usei meus conhecimentos em <strong>JavaScript</strong> e a <strong>API</strong> do <strong>Via CEP</strong>, além do conceito de <strong>Mobile First</strong>.</p>
 
-                            <p className='description_project'><span>Fevereiro/2024 &#8594; Abril/2024</span></p>
+                            <p className='description_project'><strong>Fevereiro/2024 &#8594; Abril/2024</strong></p>
 
                          
 
@@ -265,9 +265,9 @@ function Projects() {
 
                         <div className='box_about_project'>
 
-                            <p className='description_project'>Meu primeiro site usando meus conhecimentos iniciais em <span>HTML</span> e <span>CSS</span>. Este projeto é uma pequena página que fala sobre o anime <span>Demon Slayer</span> e seus personagens. Nas imagens, usei pela primeira vez, o efeito <span>Parallax</span>.</p>
+                            <p className='description_project'>Meu primeiro site usando meus conhecimentos iniciais em <strong>HTML</strong> e <strong>CSS</strong>. Este projeto é uma pequena página que fala sobre o anime <strong>Demon Slayer</strong> e seus personagens. Nas imagens, usei pela primeira vez, o efeito <strong>Parallax</strong>.</p>
 
-                            <p className='description_project'><span>Dezembro/2023 &#8594; Janeiro/2024</span></p>
+                            <p className='description_project'><strong>Dezembro/2023 &#8594; Janeiro/2024</strong></p>
                         
 {/* 
                             <p className='description_project'>Tempo de desenvolvimento: <span>Dez/2023 - Fev/2024</span></p> */}
