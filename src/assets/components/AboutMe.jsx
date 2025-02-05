@@ -14,7 +14,7 @@ function AboutMe() {
                 <div className="conteiner">
                     <div className='titles_box'>
                         <h2 className="title_content">Olá, mundo!</h2>
-                         <p className='subtitle_content' id='aboutMe_subtitle'>Meu nome é José Ricardo e este é meu portfólio profissional. Aqui você encontrará meus projetos e as tecnologias em que tenho habilidades. Sinta-se à vontade para conhecer meu trabalho e minhas competências. Obrigado pela visita!"
+                         <p className='subtitle_content' id='aboutMe_subtitle'>Meu nome é José Ricardo e este é meu portfólio profissional. Aqui você encontrará meus projetos e as tecnologias em que tenho habilidades. Sinta-se à vontade para conhecer meu trabalho e minhas competências. Obrigado pela visita!
    
                             </p> 
                     </div>
