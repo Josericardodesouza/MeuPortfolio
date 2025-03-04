@@ -76,7 +76,7 @@ function Projects() {
 
                         <div className='box_about_project'>
                             {/* <h3 className='title_project'>Sobre o projeto</h3> */}
-                            <p className='description_project'>Este projeto foi desenvolvido durante meus estudos com a <strong>Context API</strong> e o <strong>framework Swiper</strong>, do React. Ele consiste em uma <strong>cafeteria virtual fictícia</strong> onde os usuários podem escolher entre uma variedade de <strong>bebidas quentes</strong>, <strong>geladas</strong> e <strong>doces</strong>. Quando os itens desejados são selecionados, eles são passados de uma página para outra utilizando a Context API. O site também conta com uma <strong>simulação de serviço delivery</strong>, usando a <strong>API do ViaCEP</strong>, e uma seção de comentários, proporcionando uma experiência interativa e envolvente.</p>
+                            <p className='description_project'>Desenvolvi este projeto durante meus estudos com a <strong>Context API</strong> e o <strong>framework Swiper</strong>, do React. Ele consiste em uma <strong>cafeteria virtual fictícia</strong> onde os usuários podem escolher entre uma variedade de <strong>bebidas quentes</strong>, <strong>geladas</strong> e <strong>doces</strong>. Quando os itens desejados são selecionados, eles são passados de uma página para outra utilizando a Context API. O site também conta com uma <strong>simulação de serviço delivery</strong>, usando a <strong>API do ViaCEP</strong>, e uma seção de comentários, proporcionando uma experiência interativa e envolvente.</p>
 
 
                             <p className='description_project'><strong>Outubro/2024 &#8594; em desenvolvimento</strong></p>
@@ -145,7 +145,7 @@ function Projects() {
                         <div className='box_about_project'>
 
                             <p className='description_project'>
-                                Este projeto com design simples possibilita três formas de conversão de escalas termométricas: <strong>Celsius, Fahrenheit</strong> e <strong>Kelvin</strong>. O usuário <strong>insere</strong> a temperatura no campo, <strong>seleciona</strong> a <strong>escala inicial</strong> e a <strong>escala final</strong>. Dependendo do resultado obtido, o código retorna uma <strong>frase de efeito</strong> e uma <strong>imagem</strong>.
+                                Focando na conversão de escalas termométricas, este projeto possibilita três formas de conversão: para <strong>Celsius, Fahrenheit</strong> e <strong>Kelvin</strong>. O usuário <strong>insere</strong> a temperatura no campo, <strong>seleciona</strong> a <strong>escala inicial</strong> e a <strong>escala final</strong>. Dependendo do resultado obtido, o código retorna uma <strong>frase de efeito</strong> e uma <strong>imagem</strong>.
 
 
                           
@@ -208,7 +208,7 @@ function Projects() {
 
                         <div className='box_about_project'>
 
-                            <p className='description_project'>Este projeto é um site de uma <strong>academia fictícia</strong> que oferece <strong>três ferramentas de cálculo</strong> que desenvolvi usando <strong>JavaScript</strong>: uma para obtenção de <strong>IMC (Índice de Massa Corporal)</strong>, outra para <strong>cálculo de valor calórico</strong> e outra para <strong>GEB (Gasto Energético Basal)</strong>. Neste projeto, usei meus conhecimentos em <strong>JavaScript</strong> e a <strong>API</strong> do <strong>Via CEP</strong>, além do conceito de <strong>Mobile First</strong>.</p>
+                            <p className='description_project'>Se trata de um site de uma <strong>academia fictícia</strong> que oferece <strong>três ferramentas de cálculo</strong> que desenvolvi usando <strong>JavaScript</strong>: uma para obtenção de <strong>IMC (Índice de Massa Corporal)</strong>, outra para <strong>cálculo de valor calórico</strong> e outra para <strong>GEB (Gasto Energético Basal)</strong>. Neste projeto, usei meus conhecimentos em <strong>JavaScript</strong> e a <strong>API</strong> do <strong>Via CEP</strong>, além do conceito de <strong>Mobile First</strong>.</p>
 
                             <p className='description_project'><strong>Fevereiro/2024 &#8594; Abril/2024</strong></p>
 
