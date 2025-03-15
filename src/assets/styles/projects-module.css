@@ -67,6 +67,11 @@ p.p_inDevelopment {
 }
 
 
+p#personalPageDevelopment {
+    text-align: center;
+}
+
+
 div.box_img_project>img {
     display: block;
     width: 100%;

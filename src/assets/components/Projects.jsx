@@ -14,6 +14,8 @@ import imageDS from '../imgs/imgs-projects/image-zericardoanimeswiki.png'
 import imageSA from '../imgs/imgs-projects/image-siteacademia.png'
 import imageST from '../imgs/imgs-projects/image-conversortemp.png'
 import imageSC from '../imgs/imgs-projects/image-sitecafeteria-2.png'
+import imageSP from '../imgs/imgs-projects/image-prst.png'
+
 
 function Projects() {
     return (
@@ -31,7 +33,7 @@ function Projects() {
                     </div>
 
                     <div className='box_img'>
-                        <img src={image} alt="" />
+                        <img src={image} alt="capa do site Sidney Sousa - Página Oficial" />
 
                     </div>
 
@@ -41,11 +43,70 @@ function Projects() {
 
                 <section id="conteiner_projects">
 
+                <div className="box_projects" id='box_project_sc'>
+
+<div className="box_img_project">
+
+    <img src={imageSP} alt="" />
+
+</div>
+
+
+<div className='conteiner_visit_project'>
+
+    <a className='box_icons_project icon_goToProject' href='https://sidneywesleyoficial.netlify.app' target='blank'>
+        <LuSquareArrowOutUpRight />
+        <p>Acessar</p>
+    </a>
+
+
+
+</div>
+
+<div className='box_name_project'>
+    <h3>Sidney Sousa - Página Oficial</h3>
+</div>
+
+
+
+
+
+
+<div className='box_about_project'>
+    {/* <h3 className='title_project'>Sobre o projeto</h3> */}
+
+    <p className='description_project'>Lading Page<strong> intuitiva e funcional</strong> desenvolvida para um personal trainer. O site permite que clientes interessados em uma consultoria online acessem seu perfil na MFIT e, <strong>por meio da integração com a API do WhatsApp</strong>, iniciem uma conversa com o profissional de forma rápida e prática.</p>
+
+
+    <p className='description_project' id='personalPageDevelopment'><strong>Março/2024</strong></p>
+
+
+
+</div>
+
+
+<h3 className='title_project'>Tecnologias abordadas</h3>
+
+<div className='box_techIcon_project'>
+    <FaHtml5 className='icon_html_projects' />
+    <FaCss3Alt className='icon_css_projects' />
+    <FaJs className='icon_js_projects' />
+   
+
+</div>
+
+
+
+
+
+</div>
+
+
                     <div className="box_projects" id='box_project_sc'>
 
                         <div className="box_img_project">
 
-                            <img src={imageSC} alt="" />
+                            <img src={imageSC} alt="capa do projeto do site da cafeteria" />
 
                         </div>
 
@@ -109,7 +170,7 @@ function Projects() {
 
                         <div className="box_img_project">
 
-                            <img src={imageST} alt="" />
+                            <img src={imageST} alt="capa do site de conversão de temperaturas" />
 
                         </div>
 
@@ -176,7 +237,7 @@ function Projects() {
 
                         <div className="box_img_project">
 
-                            <img src={imageSA} alt="" />
+                            <img src={imageSA} alt="capa do projeto do site da academia" />
 
                         </div>
 
@@ -234,7 +295,7 @@ function Projects() {
 
                         <div className="box_img_project">
 
-                            <img src={imageDS} alt="" />
+                            <img src={imageDS} alt="capa do site do projeto Demon Slayer" />
                         </div>
 
 
