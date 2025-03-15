@@ -54,7 +54,7 @@ function Projects() {
 
 <div className='conteiner_visit_project'>
 
-    <a className='box_icons_project icon_goToProject' href='https://sidneywesleyoficial.netlify.app' target='blank'>
+    <a className='box_icons_project icon_goToProject' href='https://sidneysousaoficial.netlify.app' target='blank'>
         <LuSquareArrowOutUpRight />
         <p>Acessar</p>
     </a>
