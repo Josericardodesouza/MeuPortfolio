@@ -14,7 +14,7 @@ import imageDS from '../imgs/imgs-projects/image-zericardoanimeswiki.png'
 import imageSA from '../imgs/imgs-projects/image-siteacademia.png'
 import imageST from '../imgs/imgs-projects/image-conversortemp.png'
 import imageSC from '../imgs/imgs-projects/image-sitecafeteria-2.png'
-import imageSP from '../imgs/imgs-projects/image-prst.png'
+import imageSP from '../imgs/imgs-projects/image-prst2.png'
 
 
 function Projects() {
