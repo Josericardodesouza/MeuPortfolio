@@ -64,7 +64,7 @@ function Projects() {
 </div>
 
 <div className='box_name_project'>
-    <h3>Sidney Sousa - Página Oficial</h3>
+    <h3>Sidney Sousa <br /> Página Oficial</h3>
 </div>
 
 
