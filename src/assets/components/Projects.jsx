@@ -78,7 +78,7 @@ function Projects() {
     <p className='description_project'>Lading Page<strong> intuitiva e funcional</strong> desenvolvida para um profissional de Educação Física. O site permite que clientes interessados em uma consultoria online acessem seu perfil na MFIT e, <strong>por meio da integração com a API do WhatsApp</strong>, iniciem uma conversa com o profissional de forma rápida e prática.</p>
 
 
-    <p className='description_project' id='personalPageDevelopment'><strong>Março/2024</strong></p>
+    <p className='description_project' id='personalPageDevelopment'><strong>Março/2025</strong></p>
 
 
 
