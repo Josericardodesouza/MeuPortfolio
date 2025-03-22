@@ -37,7 +37,7 @@ function AboutMe() {
                             <h3>Quem sou?</h3>
 
                             <p>
-                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, comecei a cursar <strong>ADS</strong> pela UNOPAR e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus<strong> projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong> e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
+                            Fala aí, meu nome é José Ricardo e sou um <strong>desenvolvedor front-end</strong>. No início de 2023, comecei a cursar <strong>Análise e Desenvolvimento de Sistemas</strong> e, encantado com o que o mundo da programação poderia me proporcionar, comecei logo a estudar <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> por cursos livres. Sempre me aperfeiçoando, fui aplicando tudo que aprendia em meus<strong> projetos pessoais</strong>, treinando minha lógica. Atualmente, venho estudando<strong> React</strong> e entendendo mais de <strong>Git</strong>, o que acredito serem essenciais para o <strong>desenvolvimento de minha carreira</strong>.
                             </p>
           
                         </div>
