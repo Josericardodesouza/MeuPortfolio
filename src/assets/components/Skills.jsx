@@ -5,6 +5,7 @@ import image from '../imgs/svgs/undraw_code-review_ept3.svg'
 
 import '../styles/styles-components.css'
 import '../styles/skills-module.css'
+import { RiTailwindCssFill } from "react-icons/ri"
 
 function Skills() {
     return (
@@ -52,6 +53,11 @@ function Skills() {
 
             </div>
          
+            <div id="box_tailwind" className="box_tech">
+                <RiTailwindCssFill />
+                <p>Tailwind CSS</p>
+
+            </div>
      
 
           

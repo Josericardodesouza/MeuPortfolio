@@ -81,6 +81,12 @@ div#box_git:hover {
     transition: 0.2s;
 }
 
+div#box_tailwind:hover {
+    background-color: var(--chocolateCosmos);
+    color: #38BDF8;
+    transition: 0.2s;
+}
+
 
 
 @media screen and (min-width: 500px) {
@@ -93,6 +99,7 @@ div#box_git:hover {
 
     div.box_tech {
         min-width: 20%;
+      
        
     }
 }
