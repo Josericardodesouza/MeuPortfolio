@@ -53,11 +53,11 @@ function Skills() {
 
             </div>
          
-            <div id="box_tailwind" className="box_tech">
+            {/* <div id="box_tailwind" className="box_tech">
                 <RiTailwindCssFill />
                 <p>Tailwind CSS</p>
 
-            </div>
+            </div> */}
      
 
           
