@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaLaptop, FaUser } from 'react-icons/fa6'
+import { FaGraduationCap, FaLaptop, FaUser, FaYoutube } from 'react-icons/fa6'
 import '../styles/styles-components.css'
 import '../styles/aboutMe-module.css'
 import { FaUserAlt } from 'react-icons/fa'
@@ -41,6 +41,8 @@ function AboutMe() {
                             </p>
           
                         </div>
+
+
                         <div className='box_aboutMe'>
                             <FaLaptop className='icon_aboutMe' />
                             <h3>Por que escolhi ser um desenvolvedor Front-End?</h3>
@@ -51,13 +53,19 @@ function AboutMe() {
                                 Contudo, anseio em me tornar um <strong>desenvolvedor Full Stack</strong> e contribuir em muitos outros projetos.
                             </p>
                         </div>
+
+
                         <div className='box_aboutMe'>
                             <FaGraduationCap className='icon_aboutMe' />
                             <h3>Graduações</h3>
-                            <p className='text_graduation'>Análise e Desenvolvimento de Sistemas - <strong>Em andamento</strong></p>
+                            <p className='text_graduation'>Análise e Desenvolvimento de Sistemas</p>
                             <p className='text_graduation'><strong> 2023 &#8594; 2025</strong></p>
                         </div>
+
+         
+
                 </div>
+
 
 
 

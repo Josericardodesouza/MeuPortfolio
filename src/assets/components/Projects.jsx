@@ -213,6 +213,7 @@ function Projects() {
                             </p>
 
                             <p className='description_project'><strong>Agosto/2024 &#8594; Outubro/2024</strong></p>
+                            <p className='description_projetct'><strong>Atualizado - ago/2025</strong></p>
 
                         </div>
 
